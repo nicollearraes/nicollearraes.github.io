@@ -1,1 +1,152 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Nicolle <i class="fas fa-heart"></i></title>
+	<meta charset = "utf-8">
+	<meta http-equiv="X=UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/7dc1ce728d.js"></script>
+	
+</head>
+
+<body>
+	
+	<!---header--->
+	<header class="navbar navbar-default navbar-fixed-top" id="header">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+	       <span class="sr-only">Toggle navigation</span>
+	       <span class="icon-bar"></span>
+	       <span class="icon-bar"></span>
+	       <span class="icon-bar"></span>
+	     </button>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#about-me" class="js-scrollToSection" data-section-id="about-me">About <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#portfolio" class="js-scrollToSection" data-section-id="portfolio">Portfolio</a></li>
+	        <li><a href="#contact-me" class="js-scrollToSection" data-section-id="contact-me">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	  </nav>
+	</header>
+
+	<!---beginning of about--->
+	<section id="about-me">
+	  <h2> ABOUT ME </h2>
+	  <div class="row row--flex">
+	    <div class="col-xs-12 col-md-4">
+	      <img class="about-pic img-circle" src="img/nina.jpeg" alt="A picture of Nicolle.">
+	    </div>
+	    <div class="col-xs-12 col-md-8 col--v-center text-center">
+	      <div>
+	        <p>Hello there, I'm Nicolle! But you can call me Nina or Nic. I'm an architect/urban planner who decided to learn how to code - thanks mom!</p>
+	        <p>To pursue a formal education in the IT area, I'm currently living in Montréal - Canada. When I was waiting for my classes to start, back in 2017, my friend/mentor encouraged me to mess around and do some courses online. Almost two years later, here I am, finishing my college!</p>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!---beginning of portfolio--->
+	<section id="portfolio">
+	  <h2> PORTFOLIO </h2>
+	  <div class="row">
+	    <div class="col-xs-12 col-md-6">
+	      <figure>
+	        <a target='_blank' href="https://codepen.io/nicollearraes/full/XZPqQm"><img src="img/alberteinstein.png" alt="Screenshot of the Albert Einstein Tribute Page."></a>
+	        <figcaption>Albert Einstein Tribute Page on CodePen</figcaption>
+	      </figure>
+	      <figure>
+	        <a target='_blank' href="https://codepen.io/nicollearraes/full/dLQXXQ"><img src="img/surveypage.png" alt="Screenshot of the Survey Page."></a>
+	        <figcaption>Nic's Survey Page on CodePen</figcaption>
+	      </figure>
+	      <!-- <figure>
+	          <img src="http://i68.tinypic.com/ioqgcp.png" alt="Placeholder Image.">
+	        <figcaption>Placeholder Image.</figcaption>
+	      </figure> -->
+	    </div>
+	    <div class="col-xs-12 col-md-6">
+	      <figure>
+	        <a target='_blank' href="https://codepen.io/nicollearraes/full/dKpppb">
+	        <img src="img/googlebot.png" alt="Google's Android Robot.">
+	        </a>
+	        <figcaption>Animated Google Adroid Robot Page on CodePen</figcaption>
+	      </figure>
+	      <figure>
+	      	<a target='_blank' href="https://codepen.io/nicollearraes/full/ewbGMx"><img src="img/pusheenbox.png" alt="Screenshot of the Pusheen Box Page."></a>
+	        <figcaption>Pusheen Box Project on CodePen</figcaption>
+	      </figure>
+	     <!--  <figure>
+	          <img src="http://i68.tinypic.com/ioqgcp.png" alt="Placeholder Image.">
+	        <figcaption>Placeholder Image.</figcaption>
+	      </figure> -->
+	    </div>
+	  </div>
+	</section>
+
+	<!---beginning of contact me--->
+	<section id="contact-me">
+	  <h2> CONTACT ME </h2>
+	  <div class="row row--flex">
+	    <div class="col-xs-12 col-md-6 text-left">
+	      <p>Want to contact me?</p>
+	      <p>If you want to know more about me, my projects, what I've been doing, or even trip advices about Montréal or Brazil, don't be shy!</p>
+	      <p>Fill in the form and I'll reply as soon as I can!</p>
+	    </div>
+	    <div class="col-xs-12 col-md-6">
+	      <form class="form">
+	        <div class="form-group">
+	          <input type="text" placeholder="Name" required>
+	        </div>
+	        <div class="form-group">
+	          <input type="text" placeholder="Email Address" required>
+	        </div>
+	        <div class="form-group">
+	          <textarea rows="5" placeholder="Message" required></textarea>
+	        </div>
+	        <div class="form-group">
+	          <a href="mailto:nicolle.falbo@hotmail.com"><button type="submit">Send <i class="fas fa-paper-plane"></i></button></a>
+	        </div>
+	      </form>
+	    </div>
+	  </div>
+	</section>
+
+	<!---beginning of footer--->
+	<footer>
+	  <div class="footer-1">
+	    <div class="row row--flex">
+	      <div class="col-xs-12 col-md-6 text-center">
+	        <h3>About this page</h3>
+	        <p class="footer-text">Made with <i class="fas fa-heart"></i> by <a href="#">Nicolle</a>.</p>
+	      </div>
+	      <div class="col-xs-12 col-md-6 text-center">
+	        <h3>Find me in the web</h3>
+	        <ul>
+	          <li><a class="button-media" target='_blank' href="https://www.linkedin.com/in/nicollefalbo/"><i class="fab fa-linkedin-in"></i></a></li>
+	          <li><a class="button-media" target='_blank' href="https://github.com/nicollearraes"><i class="fab fa-github"></i></i></a></li>
+	          <li><a class="button-media" target='_blank' href="https://www.instagram.com/nicollearraes/"><i class="fab fa-instagram"></i></a></li>
+	          <li><a class="button-media" target='_blank' href="https://twitter.com/nicollearraes"><i class="fab fa-twitter"></i></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="footer-2">
+	    <p class="text-center text-credit">Nicolle © 
+	    <script>document.write(new Date().getFullYear())</script>.</p>
+	</div>
+	</footer>
+
+	<div class="scroll-top js-scrollTop"><i class="fas fa-arrow-up"></i></div>
+	<script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>
