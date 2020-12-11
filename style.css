@@ -77,6 +77,15 @@ figcaption {
   text-align: center;
 }
 
+/* .footer-2 {
+  background-color: #C6D7D9 !important;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 input, textarea {
   width: 100%;
   border: 1px solid #aaa;
@@ -120,27 +129,42 @@ li {
   padding: 0 8px;
 }
 
+.project-title {
+  list-style-type: "\00BB";
+  display: block;
+}
+
+.project-title ul {
+  margin-bottom: 35px;
+}
+
+.project-item {
+  display: block;
+  justify-content: left;
+  align-items: left;
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+.project-item li {
+  padding: 5px;
+}
+
+.project-item a {
+  color: #045365;
+}
+
 .button-media i {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .fas.fa-heart {
   color: #f75959;
 }
 
-.footer-1 {
+footer {
   background: #EAF8FA;
-  padding: 0;
-  padding-bottom: 8px;
-}
-
-.footer-2 {
-  background-color: #C6D7D9 !important;
   padding: 10px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-text {
@@ -150,8 +174,9 @@ li {
 
 .text-credit {
   font-family: "Futura", "Times";
-  font-size: 13px;
+  font-size: 12px;
   margin: 0;
+  padding: 8px;
 }
 
 .scroll-top {
